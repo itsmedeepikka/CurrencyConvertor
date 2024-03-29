@@ -54,7 +54,7 @@ try:
     print(f'{amount}{base_symbol} equals to {result}{dest_symbol}')
 
 except ConnectionError as e:
-    print('Connection error: Check the connection')
+    print('Connection error: Check the connection!')
     exit(1)
 
 except Exception as e:
